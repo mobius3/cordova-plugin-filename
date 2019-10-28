@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/mobius3/cordova-plugin-filename/issues"
   },
-  "homepage": "https://github.com/mobius3/cordova-plugin-filename#readme"
+  "homepage": "https://github.com/mobius3/cordova-plugin-filename#readme",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-# Cordova Hello World Plugin
+# Cordova Filename Plugin
 
 Simple plugin that returns the real file name of an android `content://` URI or any other return from file picking intent API.
 

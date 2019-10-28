@@ -1,5 +1,10 @@
 package mobius3.plugin;
 
+import android.database.Cursor;
+import android.net.Uri;
+import android.provider.MediaStore;
+import android.support.v4.content.CursorLoader;
+
 import org.apache.cordova.*;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -31,7 +36,7 @@ public class Filename extends CordovaPlugin {
         Cursor cursor = loader.loadInBackground();
         int column_index = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
         cursor.moveToFirst();
-        String fileName = cursor.getString(column_index);
-        return fileName;
+        return cursor.getString(column_index);
     }
 }
+

@@ -10,7 +10,7 @@ public class Filename extends CordovaPlugin {
     public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
         if (action.equals("getRealFilename")) {
             String url = data.getString(0);
-            String message = "Filename, " + name;
+            String message = "Filename, " + url;
             callbackContext.success(message);
 
             return true;

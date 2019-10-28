@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="cordova-plugin-filename"
+        version="1.0.0">
+
+  <name>Filename</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/filename.js" target="js/filename.js"/>
+
+  <js-module src="www/filename.js" name="filename">
+    <clobbers target="filename" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Filename">
+        <param name="android-package" value="mobius3.plugin.Filename"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/Filename.java" target-dir="src/mobius3/plugin/"/>
+  </platform>
+</plugin>

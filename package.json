@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-filename",
+  "version": "1.0.0",
+  "description": "Plugin to obtain the real filename of a file",
+  "cordova": {
+    "id": "cordova-plugin-filename",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobius3/cordova-plugin-filename.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "filename",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Leonardo Freitas",
+  "license": "Apache-2",
+  "bugs": {
+    "url": "https://github.com/mobius3/cordova-plugin-filename/issues"
+  },
+  "homepage": "https://github.com/mobius3/cordova-plugin-filename#readme"
+}

@@ -12,7 +12,7 @@
   <asset src="www/filename.js" target="js/filename.js"/>
 
   <js-module src="www/filename.js" name="filename">
-    <clobbers target="filename" />
+    <clobbers target="cordova.plugins.filename" />
   </js-module>
 
   <platform name="android">

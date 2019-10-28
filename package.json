@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-filename",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin to obtain the real filename of a file",
   "cordova": {
     "id": "cordova-plugin-filename",
